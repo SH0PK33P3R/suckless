@@ -97,24 +97,24 @@ unsigned int tabspaces = 8;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	/* 8 normal colors */
-	"black", /* black */
-	"#f7768e", /* red */
-	"#9ece6a", /* green */
-	"#e0af68", /* yellow */
-	"#7aa2f7", /* blue */
-	"magenta3", /* magenta */
-	"cyan3", /* cyan */
-	"gray90", /* gray */
+	"#282828", /* black */
+	"#cc241d", /* red */
+	"#689d6a", /* green */
+	"#d79921", /* yellow */
+	"#458588", /* blue */
+	"#b16286", /* magenta */
+	"#689d6a", /* cyan */
+	"#a89984", /* gray */
 
 	/* 8 bright colors */
-	"#acb0d0", /* gray */
-	"#f7768e", /* red */
-	"#9ece6a", /* green */
-	"#e0af68", /* yellow */
-	"#7aa2f7", /* blue */
-	"#9a7ecc", /* magenta */
-	"#4abaaf", /* cyan */
-	"white", /* white */
+	"#928374", /* gray */
+	"#cc241d", /* red */
+	"#689d6a", /* green */
+	"#d79921", /* yellow */
+	"#458588", /* blue */
+	"#b16286", /* magenta */
+	"#689d6a", /* cyan */
+	"#fdf4c1", /* white */
 
 	[255] = 0,
 
@@ -122,7 +122,7 @@ static const char *colorname[] = {
 	"#cccccc",
 	"#555555",
 	"gray90", /* default foreground colour */
-	"#111111", /* default background colour */
+	"#1d2021", /* default background colour */
 };
 
 
